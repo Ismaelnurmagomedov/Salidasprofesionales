@@ -1,9 +1,6 @@
-.body {
-    background-image: url("img1\fondito.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: rgb(255, 1, 1);
-      }
-a {
-  color:blue
+body {
+  background-image: url("../img1/fondo.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
