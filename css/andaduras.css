@@ -9,7 +9,6 @@ body {
     height: 280px;
     object-fit: cover;
 }
-p.one {
-  border-style: solid;
-  border-color: red;
+.conclusion {
+  border: 2px solid rgb(83, 93, 184) !important;
 }
