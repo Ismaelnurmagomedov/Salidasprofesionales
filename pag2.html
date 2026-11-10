@@ -8,35 +8,74 @@
        <link rel="stylesheet" href="./css/andaduras.css">
     </head>
     <body class="back">
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
+
+      <div class="container d-flex justify-content-end">
+
+        <button class="btn vinicius fs-5"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasRight"
+                aria-controls="offcanvasRight"><h6 class="title text-center">
+            MENU ☰<h/6>
+        </button>
+
+    </div>
+
+    <div class="offcanvas offcanvas-end" 
+         tabindex="1" 
+         id="offcanvasRight"
+         aria-labelledby="offcanvasRightLabel">
+
+        <div class="offcanvas-header">
+
+            <h4 class="offcanvas-title" id="offcanvasRightLabel">
+                MENÚ PRINCIPAL
+            </h4>
+
+            <button type="button" 
+                    class="btn-close"
+                    data-bs-dismiss="offcanvas"
+                    aria-label="Cerrar">
+            </button>
+
+        </div>
+
+
+        <div class="offcanvas-body">
+
+            <ul class="navbar-nav">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="./pag1.html">INICIO</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="./pag2.html">OPCIONES</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="./pag3.html">SALIDAS</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html">VOLVER</a>
+                </li>
+
+            </ul>
+
+        </div>
+    </div>
+
+
 
       <h1 class="title text-center">Decisiones De Futuro</h1>
       
+      <br></br>
       
-      
-      
-      
-      
-      <ul class="nav nav-pills justify-content-center fs-3 mt-7">
-
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="./pag1.html">INICIO</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./pag2.html">OPCIONES</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./pag3.html">SALIDAS</a>
-            </li>
-
-    
-        </ul>
-        <div class="table responsive>
+      <main class="container">
+        <section>
+          <h2 class="title text-center">Tabla Comparativa</h2>
+        <div>
         <table class="table table-bordered">
           <thead class="table-primary">
             <tr>
@@ -107,6 +146,10 @@
           </tbody>
         </table>
         </div>
+        </section>
+
+        <section>
+          <h2 class="title text-center">Fichas de cada Itinerario</h2>
 
  <div class="accordion" id="accordionPanelsStayOpenExample">
   <div class="accordion-item">
@@ -196,6 +239,8 @@
       </div>
     </div>
   </div>
+</section>
+</main>
 
   <footer class="title text-center">
     Salidas Profesionales-Ismael Vilar Veiga
